@@ -1,0 +1,53 @@
+.flex-parent {
+    border: 2px solid;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-child {
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .red {
+    background: #fe4d3f;
+  }
+  
+  .pink {
+    background: #ffdfe7;
+  }
+  
+  button {
+    height: 40px;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    background: #1301ff;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+  }
+  
+  /*
+
+flex box links:
+> https://www.youtube.com/watch?v=K74l26pE4YA
+
+> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+  */
